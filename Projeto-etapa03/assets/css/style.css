@@ -21,7 +21,7 @@ a {
 }
 
 a:hover {
-  color: #ea6981;
+  color: #9b0723;
   text-decoration: none;
 }
 
@@ -1201,6 +1201,75 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Avaliação
+--------------------------------------------------------------*/
+
+
+#avaliacao1 .avaliacao .avali-form {
+  margin-top: 30px;
+  padding: 30px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+#avaliacao1 .avaliacao .avali-form h4 {
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+}
+
+#avaliacao1 .avaliacao .avali-form p {
+  font-family: "Lato", "sans serif";
+  font-size: 18px;
+}
+
+#avaliacao1 .avaliacao .avali-form {
+  font-family: "Lato", "sans serif";
+  border-radius: 4px;
+  padding: 10px 10px;
+  font-size: 13px;
+}
+
+#avaliacao1 .avaliacao .avali-form input:focus {
+  box-shadow: none;
+  border-color: #a4001e;
+}
+
+#avaliacao1 .avaliacao .avali-form textarea {
+  font-family: "Lato", "sans serif";
+  border-radius: 4px;
+  padding: 10px 10px;
+  font-size: 15px;
+}
+
+#avaliacao1 .avaliacao .avali-form textarea:focus {
+  box-shadow: none;
+  border-color: #a4001e;
+}
+
+#avaliacao1 .avaliacao .avali-form .form-group {
+  margin-bottom: 25px;
+}
+
+#avaliacao1 .avaliacao .avali-form .btn-primary {
+  border-radius: 4px;
+  padding: 10px 20px;
+  border: 0;
+  background-color: #720000;
+}
+
+#avaliacao1 .avaliacao .avali-form .btn-primary:hover {
+  background-color: #720000;
+  font-family: "Lato", "sans serif";
+  font-size: 15px;
+}
+
+#avaliacao1 .avaliacao .avali-form .btn-primary {
+  color: #fafafa;
+  font-family: "Lato", "sans serif";
+  font-size: 15px;
+}
+
+/*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
 .contact .info-item {
@@ -1339,6 +1408,12 @@ section {
     transform: rotate(360deg);
   }
 }
+
+/*--------------------------------------------------------------
+# Avaliação
+--------------------------------------------------------------*/
+
+
 
 /*--------------------------------------------------------------
 # Breadcrumbs
@@ -2013,7 +2088,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 5px;
-  color: #ea6981;
+  color: #9b0723;
   font-size: 18px;
   line-height: 1;
   margin-right: 0%;
